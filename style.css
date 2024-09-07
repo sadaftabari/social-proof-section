@@ -1,0 +1,96 @@
+*{margin: 0px;
+    padding: 0px;
+box-sizing: border-box;
+font-family: "League Spartan", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;}
+
+body{padding:90px;}
+.header{display: flex;
+margin-bottom:70px;}
+
+    .textbox{width: 50%;}
+    
+.headerboxes{width: 50%;
+padding-left: 60px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+justify-content: center;
+}
+h1{ font-family: "League Spartan", sans-serif;
+font-size: 40px;
+font-weight: 700;
+font-style: normal;
+margin-bottom: 20px;
+color:  hsl(300, 43%, 22%);}
+.textbox span{display: block;}
+.box,.box1,.box2{background-color:hsl(300, 24%, 96%);
+    border-radius: 5px;
+width: 60%;
+height: 40px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row-reverse;
+align-content: center;
+justify-content: center;
+gap:25px;}
+
+.box{align-self:flex-start ;}
+
+.box1{align-self: center ;}
+
+.box2{align-self: flex-end ;}
+
+.image img{width: 20%;}
+
+.footer{display: flex;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+
+height: 230px;
+margin-top: 15px;}
+.card,.card1,.card2{width: 31%;
+height: 80%;
+background-color:  hsl(300, 43%, 22%);
+border-radius: 8px;
+padding-top: 20px;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 20px;
+}
+.card-header{
+margin-bottom: 18px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-content: center;
+justify-content: center;
+gap:22px;
+color: aliceblue;}
+.card-img img{border-radius: 50%;
+width:60%;}
+.card-title{align-self: center;}
+.card-title span{display: block;
+    margin-top:5px;
+    font-size: 15px;
+color: hsl(333, 80%, 67%);}
+   .card{align-self: flex-start;} 
+   .card1{align-self:center ;} 
+   .card2{align-self: flex-end;} 
+   .card p{color: rgb(255, 255, 255);
+text-align: center;
+font-size: 14px;
+line-height: 16px;}
+.card1 p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;}
+
+.card2 p {
+    color: aliceblue;
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;}
